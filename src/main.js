@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import ChartPlugin from './plugins/ChartPlugin';
+
+// install();
+Vue.use(ChartPlugin);
 
 Vue.config.productionTip = false
 
